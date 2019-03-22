@@ -1,0 +1,314 @@
+body {
+	font-family: lato;
+}
+
+.hidden {
+	display: none;
+}
+
+.siteCon {
+	margin: 0 auto;
+	max-width: 1500px;
+}
+
+#mainNav {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#mainNav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#logo {
+	background-color: blue;
+	width: 250px !important; 
+	height: 150px;
+	margin-left: -5%;
+}
+
+.navBtn {
+	padding-top: 50px;
+}
+
+#mainNav ul li a {
+	text-decoration: none;
+	font-size: 22px;
+	color: #333;
+	letter-spacing: 0.05em;
+}
+
+#heroArea {
+	background-color: blue;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+}
+
+#imgWrapper h2 {
+	color: white;
+	font-size: 45px;
+	margin-top: 110px;
+	text-align: center;
+}
+
+#imgWrapper h3 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 80px;
+}
+
+.bookingCon {
+	width: 900px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.bookingCon input {
+	height: 30px;
+	width: 250px;
+	margin-left: 20px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: solid 2px #333;
+}
+
+.bookBtn {
+	height: 37px !important;
+	width: 150px !important;
+}
+
+#introWrapper h2 {
+	text-align: center;
+	margin-top: 90px;
+	font-size: 28px;
+}
+
+.line {
+	width: 100px;
+	height: 2px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 40px;
+}
+
+#introWrapper p {
+	width: 820px;
+	font-size: 18px;
+	letter-spacing: 0.04em;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 20px;
+}
+
+#roomWrapper {
+	margin-top: 150px;
+}
+
+#roomWrapper h2 {
+	text-align: center;
+	font-size: 28px;
+}
+
+#roomWrapper h3 {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+#roomAmens ul li {
+	margin-left: 20px;
+	font-size: 20px;
+	width: 310px;
+	padding-top: 10px;
+}
+
+#roomAmens ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 990px;
+	margin: 0 auto;
+	padding-left: 40px;
+}
+
+#btnWrapper {
+	margin: 50px auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.roomBtn {
+	width: 155px;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: solid 2px #333333;
+	background-color: white;
+}
+
+#roomCon {
+	background-color: green;
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+}
+
+#spaWrapper {
+	margin-top: 160px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+#spaWrapper p {
+	width: 30%;
+	font-size: 17px;
+	line-height: 20px;
+	margin-top: 130px;
+	position: relative;
+	right: 10%;
+}
+
+#spaWrapper h2 {
+	font-size: 25px;
+	position: relative;
+	left: 10%;
+	top: 50px;
+}
+
+.wrapperImg {
+	width: 50%;
+	height: 400px;
+	background-color: blue;
+}
+
+#activityWrapper {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#activityWrapper div {
+	order: 1;
+	width: 50%;
+}
+
+#activityWrapper p {
+	width: 30%;
+	font-size: 17px;
+	line-height: 20px;
+	margin-top: 130px;
+	position: relative;
+	left: -100px;
+}
+
+#activityWrapper h2 {
+	font-size: 25px;
+	position: relative;
+	left: 10%;
+	top: 50px;
+}
+
+#diningWrapper h2 {
+	font-size: 25px;
+	position: relative;
+	left: 10%;
+	top: 50px;
+}
+
+#diningWrapper p {
+	width: 30%;
+	font-size: 17px;
+	line-height: 20px;
+	margin-top: 130px;
+	position: relative;
+	right: 10%;
+}
+
+#diningWrapper {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#testimonialWrapper {
+	display: flex;
+	width: 1000px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 auto;
+}
+
+#testH2 {
+	margin-top: 150px;
+	text-align: center;
+	font-size: 28px;
+}
+
+.testimonial {
+	padding: 20px 0 20px 0;
+}
+
+.testimonial h3 {
+	font-size: 22px;
+}
+
+.testimonial p {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+#closingPara {
+	font-size: 20px;
+	width: 1150px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#closingPara h3 {
+	margin-top: 15px;
+}
+
+#mainFooter {
+	margin-top: 150px;
+	background-color: yellow;
+}
+
+#mainFooter div.bookingCon {
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+#socialMedia {
+	display: flex;
+	flex-wrap: wrap;
+	width: 280px;
+	justify-content: space-evenly;
+	position: relative;
+	left: 80px;
+}
+
+.socialIcon {
+	width: 75px;
+	height: 75px;
+	margin: 5px 0 0 0;
+	background-color: blue;
+}
+
+#footerInfo {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: -50px;
+	font-size: 20px;
+	width: 360px;
+}
+
+#copyright {
+	display: flex;
+	justify-content: flex-end;
+}
