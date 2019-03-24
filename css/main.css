@@ -1,5 +1,9 @@
-body {
-	font-family: 'Arimo', sans-serif;
+h1, h2 {
+	font-family: 'Noto Serif', sans-serif;
+}
+
+li, p {
+	font-family: 'Noto Sans', sans-serif;
 }
 
 .hidden {
@@ -50,7 +54,7 @@ body {
 #imgWrapper h2 {
 	color: white;
 	font-size: 45px;
-	margin-top: 110px;
+	margin-top: 120px;
 	text-align: center;
 }
 
@@ -98,7 +102,7 @@ body {
 }
 
 #introWrapper p {
-	width: 820px;
+	width: 710px;
 	font-size: 18px;
 	letter-spacing: 0.04em;
 	margin: 0 auto;
@@ -175,7 +179,7 @@ body {
 }
 
 #para {
-	width: 25%;
+	width: 30%;
 	font-size: 19.3px;
 	letter-spacing: 0.02em;
 	background-color: rgba(255,255,255,0.7);
@@ -203,12 +207,13 @@ body {
 #spaWrapper h2 {
 	font-size: 25px;
 	position: relative;
-	left: 10%;
+	left: 15%;
 	top: 50px;
+	width: 22%;
 }
 
 .wrapperImg {
-	width: 50%;
+	width: 52%;
 	height: 450px;
 }
 
@@ -257,8 +262,9 @@ body {
 #diningWrapper h2 {
 	font-size: 25px;
 	position: relative;
-	left: 10%;
+	left: 15%;
 	top: 50px;
+	width: 22%;
 }
 
 #diningWrapper p {
@@ -304,17 +310,18 @@ body {
 
 #closingPara {
 	font-size: 20px;
-	width: 1150px;
+	width: 920px;
 	margin: 50px auto;
 	text-align: center;
 }
 
 #closingPara h3 {
-	margin-top: 15px;
+	margin-top: 35px;
+	font-size: 26px;
 }
 
 #mainFooter {
-	margin-top: 150px;
+	margin-top: 110px;
 	border-top: 2px solid black;
 }
 
